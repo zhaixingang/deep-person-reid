@@ -1,11 +1,11 @@
 model:
   name: 'osnet_ain_x1_0'
-  pretrained: True
+  pretrained: False
 
 data:
   type: 'image'
   sources: ['market1501']
-  targets: ['market1501', 'dukemtmcreid']
+  targets: ['market1501']
   height: 256
   width: 128
   combineall: False
